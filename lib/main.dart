@@ -7,7 +7,12 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(color: Colors.green
-      ,);
+    return Container(
+      //color: Colors.green,
+      decoration: BoxDecoration(
+        border: Border.all(color: Colors.black),shape: BoxShape.circle,
+        color: Colors.red
+      ),
+    );
   }
 }
