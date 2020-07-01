@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return Container(
       //color: Colors.green,
       decoration: BoxDecoration(
-        border: Border.all(color: Colors.black),shape: BoxShape.circle,
+        border: Border.all(color: Colors.red),shape: BoxShape.rectangle,
         color: Colors.blue
       ),
     );
