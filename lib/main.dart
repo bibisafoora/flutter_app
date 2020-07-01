@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       //color: Colors.green,
       decoration: BoxDecoration(
         border: Border.all(color: Colors.red),shape: BoxShape.rectangle,
-        color: Colors.blue
+        color: Colors.black,
       ),
     );
   }
